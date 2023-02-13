@@ -1,3 +1,4 @@
+import HookUseState from "../components/HookUseState";
 
 
 
@@ -5,7 +6,7 @@
 const Home = () => {
   return (
     <div>
-     Home
+     <HookUseState />
     </div>
   );
 }
