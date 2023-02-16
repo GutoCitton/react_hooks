@@ -16,7 +16,10 @@ const HookUseRef = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(inputRef)
+    
+    setText('');
+
+    inputRef.current.focus();
   }
 
 
